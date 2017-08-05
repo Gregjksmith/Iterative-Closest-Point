@@ -8,7 +8,7 @@ Transforms are solved using SVD decomposition and searching is performed using k
 
 ## API
 
-``
+```
 class Point
 {
 	float pos[3];	// x,y,z coordinates of a point in space.
@@ -17,18 +17,19 @@ class Point
 ICP.h:
 
 void icp(std::vector<Point*> &dynamicPointCloud, std::vector<Point*> &staticPointCloud);
+```
 
-``
 ## Install
 
 build the following located in /src :
 
-ICP.cpp
-ICP.h
-KdTree.cpp
-KdTree.h
-svd.cpp
-svd.h
++ICP.cpp
++ICP.h
++KdTree.cpp
++KdTree.h
++svd.cpp
++svd.h
++defs_and_types.h
 
 ## Results
 
