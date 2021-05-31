@@ -93,8 +93,9 @@ void icpExample()
 	printf("Alignment Error: %0.5f \n", alignmentError);
 }
 
-void main()
+int main()
 {
 	icpExample();
 	system("pause");
+	return 0;
 }
