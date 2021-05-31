@@ -1,4 +1,5 @@
 #include "KdTree.h"
+#include <math.h>
 
 gs::Point::Point()
 {
